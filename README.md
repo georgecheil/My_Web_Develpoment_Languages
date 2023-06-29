@@ -7,4 +7,4 @@ This is an attempt to copy the given example page from an exercise to examine re
 The given example: 
 
 
-![Uploading Screenshot 2023-06-29 193906.png…]()
+![Screenshot 2023-06-29 193906](https://github.com/georgecheil/My_Web_Develpoment_Languages/assets/79399534/62c5398a-52fd-4af1-bf5e-9adf2d9994d6)
