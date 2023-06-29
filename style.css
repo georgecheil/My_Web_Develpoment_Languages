@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(196, 196, 196);
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100%;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .section-title {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    margin: 0;
+    padding: 5px;
+    width:70%;
+    text-align: center;
+    border: solid 1px black;
+  }
+
+  .title1{
+    color: black;
+    background-color: #8a86ff;
+  }
+  
+  .title2{
+    color: black;
+    background-color: #5651dc;
+  }
+
+  .title3{
+    color: white;
+    background-color: #2823a6;
+  }
+
+  .title4{
+    color: white;
+    background-color: black;
+  }
+
+
+  .text-section {
+    position: relative;
+    padding: 25px 16px;
+    border: solid 1px black;
+    background-color: rgb(223, 224, 255);
+  }
+
+  .image-wrap {
+    float: right;
+    margin: 5px 5px 5px 5px; /* Add some margin to create space between text and image */
+    max-width: 50%; 
+    width: 100px;
+    height: 100px;
+
+  }
+
+  
+  .bottom-left {
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+
+  .bottom-left a:hover {
+    color: #5651dc;
+  }
+
+  /* Responsive layout */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
